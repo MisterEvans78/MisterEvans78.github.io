@@ -1,0 +1,33 @@
+.titre {
+    color: lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    float: right;
+    font-size: 2em;
+    color: gray;
+}
+.navbar_links {
+    text-decoration: none;
+}
+.navbar_links_here {
+    color: white;
+    text-decoration: none;
+}
+body {
+    color: white;
+    background-color: rgb(25, 25, 25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    color: gray;
+}
+a:hover, a:focus {
+    color: white;
+}
+h2 {
+    color: lightskyblue;
+}
+h3 {
+    text-decoration: underline;
+}
