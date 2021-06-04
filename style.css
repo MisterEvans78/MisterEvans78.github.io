@@ -1,33 +1,52 @@
-.titre {
-    color: lightskyblue;
-    font-family: 'Courier New', Courier, monospace;
-}
-nav {
-    float: right;
-    font-size: 2em;
-    color: gray;
-}
-.navbar_links {
-    text-decoration: none;
-}
-.navbar_links_here {
-    color: white;
-    text-decoration: none;
-}
 body {
-    color: white;
-    background-color: rgb(25, 25, 25);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-a {
-    color: gray;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
 }
-a:hover, a:focus {
-    color: white;
+header .title {
+    font-size: 1.25em;
+    padding: 0.75em;
+    font-weight: bold;
 }
-h2 {
-    color: lightskyblue;
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h3 {
-    text-decoration: underline;
+.app_card {
+    padding: 1em;
+    background-color: rgba(100, 100, 100, 0.1);
+    border-radius: 2em;
+}
+.app_card img {
+    float: left;
+    max-width: 150px;
+    margin-right: 1em;
+}
+.app_card a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.app_card a:hover {
+    background-color: rgb(100, 100, 100);
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(50, 50, 50);
+        color: white;
+    }
+    .app_card {
+        background-color: rgba(100, 100, 100, 0.25);
+    }
 }
